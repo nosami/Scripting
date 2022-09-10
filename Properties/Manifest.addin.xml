@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <!-- Register with Visual Studio for Mac -->
+    <Runtime>
+        <Import assembly="Scripting.dll" />
+    </Runtime>
+    <Extension path = "/MonoDevelop/Ide/Commands">
+        <Category _name = "Scripting" id = "Scripting">
+            <Command id="Script.RunScript" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+                defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler" />
+
+		<Command id = "Script.RunScript0" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler0"
+				macShortcut = "Control|Shift|0" />
+		<Command id = "Script.RunScript1" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler1"
+				macShortcut = "Control|Shift|1" />
+		<Command id = "Script.RunScript2" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler2"
+				macShortcut = "Control|Shift|2" />
+		<Command id = "Script.RunScript3" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler3"
+				macShortcut = "Control|Shift|3" />
+		<Command id = "Script.RunScript4" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler4"
+				macShortcut = "Control|Shift|4" />
+		<Command id = "Script.RunScript5" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler5"
+				macShortcut = "Control|Shift|5" />
+		<Command id = "Script.RunScript6" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler6"
+				macShortcut = "Control|Shift|6" />
+		<Command id = "Script.RunScript7" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler7"
+				macShortcut = "Control|Shift|7" />
+		<Command id = "Script.RunScript8" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler8"
+				macShortcut = "Control|Shift|8" />
+		<Command id = "Script.RunScript9" _label="Runs a script extension"
+                _description="Helper command to make it possible to bind keys to show a pad via .vimrc"
+				defaultHandler = "VisualStudio.Mac.Scripting.RunScriptHandler9"
+				macShortcut = "Control|Shift|9" />
+        </Category>
+    </Extension>
+</ExtensionModel>
+

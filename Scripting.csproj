@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TargetFramework>net6.0-macos</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AssemblyName>Scripting</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudioMac.Sdk" Version="17.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Scripting" Version="4.4.0-2.final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\vsmacscripts\2-show-in-github.csx">
+      <Link>2-show-in-github.csx</Link>
+    </None>
+    <None Include="..\..\vsmacscripts\0-showmessage.csx">
+      <Link>0-showmessage.csx</Link>
+    </None>
+    <None Include="..\..\vsmacscripts\1-showmessage.csx">
+      <Link>1-showmessage.csx</Link>
+    </None>
+    <None Include="..\..\vsmacscripts\references.csx">
+      <Link>references.csx</Link>
+    </None>
+  </ItemGroup>
+</Project>
